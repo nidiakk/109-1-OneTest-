@@ -1,0 +1,17 @@
+<html>
+<head>
+
+    <meta charset="utf-8"><!--轉成中文編碼-->
+    <title>login</title>
+
+
+</head>
+<body>                        <!--↓連接的檔名記得打正確，這個程式要連2.login.php，傳過去處理-->
+     <form method=get action="2.login.php"><!--用get網址會顯示密碼，因此登入狀況不使用，登入要使用post-->
+     帳號:<input type=text name="id"><br/><!--設name為id傳值--> <!--<br/>為換一行，<p><p/>為換兩行-->
+     密碼:<input type=password name="pwd"><p></p><!--type是文字型態，password不會顯示密碼-->
+     <input type=submit value="登入"><input type=reset value="清除">
+     </form><!--type是資料型態;submit是送出(表單)按鈕，reset是清除重填(表單)按鈕，value為定義的值-->
+</body>
+
+</html>
